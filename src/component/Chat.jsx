@@ -5,7 +5,8 @@ import Arroba from "../assets/arroba.svg";
 import Exit from "../assets/exit.svg";
 import Phone from "../assets/phone.svg";
 import Conversa from "../assets/Conversa.png";
-import Send from "../assets/send.svg"
+import Send from "../assets/send.svg";
+import Joao from "../assets/joao.png";
 
 const Chat = () => {
   return (
@@ -26,13 +27,13 @@ const Chat = () => {
       <div className="grid grid-rows-[2fr_0.1fr] justify-center text-center gap-[14rem]">
         <img src={Conversa} alt="conversa" className="ml-4 mt-20" />
 
-        <form>
+        <form className="flex flex-row gap-8 items-center justify-center">
           <input
             type="text"
             placeholder="Escreva algo"
             className="text-search-text w-2/4 h-10 indent-4 rounded-lg "
-          >
-          </input>
+          ></input>
+          <img src={Joao} alt="joao" />
         </form>
       </div>
     </div>
