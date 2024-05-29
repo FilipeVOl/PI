@@ -5,7 +5,7 @@ import foto3 from "../assets/about3.png";
 
 const About = () => {
   return (
-    <div className="pt-[5rem] pl-[5rem]">
+    <div className="pt-[5rem] pl-[5rem] h-[100vh]">
       <div className="flex flex-col md:grid md:grid-cols-[50%_40%]">
         <div className="h-22 mb-8 w-auto">
           <h1 className="mb-4 font-bold">About us</h1>

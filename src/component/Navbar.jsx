@@ -25,7 +25,7 @@ const Navbar = () => {
     <>
       {!isOpen && (
         <div
-          className="absolute top-0 left-0 w-10 h-full bg-bg-navbar flex items-center justify-center"
+          className=" top-0 left-0 w-10 h-auto min-h-[130vh] bg-bg-navbar flex items-center justify-center"
           onClick={toggleNavBar}
         >
           <img src={doubleArrow} alt="Open" className="w-6 h-6" />
@@ -34,7 +34,7 @@ const Navbar = () => {
       <div
         className={`${
           isOpen ? "" : "hidden"
-        } shadow-md min-w-60 h-100vh bg-bg-navbar flex flex-col justify-between`}
+        } shadow-md min-w-60 h-auto min-h-[130vh] bg-bg-navbar flex flex-col justify-between`}
       >
         <div className="flex flex-col mt-12 items-center gap-4">
           <img
