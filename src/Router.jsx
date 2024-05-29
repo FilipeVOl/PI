@@ -15,6 +15,7 @@ export function Router() {
     <UserProvider>
       <Routes>
         <Route path="/" element={<DefaultLayout />}>
+          <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projetos" element={<Projetos />} />
